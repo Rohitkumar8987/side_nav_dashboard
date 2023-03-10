@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.container{
+    
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 28px;
+    box-shadow: 0 15px 20px #ABB2B9;
+}
+
+h1{
+   font-size: 26px; 
+   font-weight: 600;
+   text-align: left;
+   color: black ;
+   padding-bottom:8px ;
+  
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+.input-box, .input-box-text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom:15px ;
+}
+
+.input-box:nth-child(2nd){
+    justify-content: end;
+}
+
+.input-box  label{
+    width: 95%;
+    color: black;
+    font-weight: bold;
+    margin: 5px 0 ;
+}
+.input-box  select {
+    width: 95%;
+    border-radius: 5px;
+    color: rgb(66, 64, 64);
+    font-weight: bold;
+    margin: 5px 0px ;
+    padding: 10px 10px 10px;
+    border: 1px solid  rgb(170, 166, 166);
+outline: none;
+}
+
+.input-box input{
+height: 40px;
+width: 95%;
+padding: 0 10px ;
+border-radius: 5px;
+border: 1px solid rgb(170, 166, 166);
+outline: none;
+}
+
+.button-container{
+    margin: 12px 0 ;
+padding-right: 70px;
+}
+.button-container button{
+    float: right;
+    display: block;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+    background-color:white;
+    border: none;
+    padding-right: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 0);
+   
+}
+
+.button-container button:hover{
+    background-color: rgb(77, 77, 233);
+    color: white;
+
+}
+.input-box textarea {
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    
+    border: 1px solid rgb(170, 166, 166);
+
+    }
+    .box-text {
+        width: 100%;
+    }
+    button {
+        padding: 10px;
+        margin-top: -55px;
+    }
+    .button-container .btn{
+        font-size: 20px;
+        padding: 30px;
+        width: 600px;
+
+    }
+    
+    .btn .btn-o{
+        padding-right:73px;
+    }
+
